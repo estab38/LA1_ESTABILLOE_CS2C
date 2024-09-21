@@ -1,2 +1,0 @@
-# LA1_ESTABILLOE_CS2C
-activity1.js

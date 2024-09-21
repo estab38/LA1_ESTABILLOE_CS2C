@@ -1,0 +1,38 @@
+//person1
+let fNamep1 ="Maria";
+let mNamep1="Delos Santos";
+let lNamep1 ="LasMarias";
+let agep1 = 25;
+let addressp1 = "Upper Session Road,Baguio City,Buenget";
+//person2
+let fNamep2 =" Juan";
+let mNamep2 = "Gamoso";
+let lNamep2 ="Dela Cruz";
+let agep2 = 28;
+let addressp2= "San Nicilas,Candon City,Ilocos Sur";
+let fullName =fNamep1 + mNamep1 + lNamep1+fNamep2+ mNamep2+ lNamep2 ;
+
+console.log(fNamep1)
+console.log(mNamep1)
+console.log(lNamep1)
+console.log(agep1)
+console.log(addressp1)
+
+
+console.log(fNamep2)
+console.log(mNamep2)
+console.log(lNamep2)
+console.log(fullName)
+
+//split
+let splitArray = fullName.split("");
+console.log(splitArray)
+
+//lengrh
+console.log(fNamep1.length)
+console.log(fNamep2.length)
+console.log(addressp1.length)
+console.log(addressp2.length)
+
+//sum subtract and multiply
+console.log(agep1 + agep2 - fNamep2.length ** addressp2.length)
